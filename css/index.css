@@ -1,0 +1,80 @@
+/* Estilos específicos para la sección Acerca de */
+#acerca-de {
+  background-color: #000000;
+  padding: 60px 20px;
+  margin: 0;
+  color: #ffe600;
+}
+
+#acerca-de .section-title {
+  color: #ffe600 !important;
+}
+
+#acerca-de h4 {
+  color: #ffe600 !important;
+  font-weight: 600;
+  margin-top: 25px;
+  border-left: 3px solid #ffe600;
+  padding-left: 10px;
+}
+
+#acerca-de p {
+  color: #000000 !important;
+  font-size: 16px;
+  line-height: 1.7;
+  margin-bottom: 15px;
+}
+
+#acerca-de .lead {
+  color: #000000 !important;
+  font-size: 1.2rem;
+}
+
+#acerca-de ul {
+  list-style-type: none;
+  padding-left: 5px;
+}
+
+#acerca-de ul li {
+  color: #000000 !important; /* Cambiado a blanco para mejor visibilidad */
+  margin-bottom: 10px;
+  position: relative;
+  padding-left: 25px;
+}
+
+#acerca-de ul li:before {
+  content: "\f00c"; /* Icono de check */
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  color: #ffe600 !important; /* Amarillo */
+  position: absolute;
+  left: 0;
+}
+
+/* Asegurar que los contenedores dentro de acerca-de también tengan fondo negro */
+#acerca-de .container,
+#acerca-de .row,
+#acerca-de .col-lg-6 {
+  background-color: #000000;
+}
+
+/* Estilo específico para la sección de valores */
+#acerca-de .valores-container {
+  background-color: #000000 !important;
+  border: 1px solid #ffe600;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+#acerca-de .valor-item h5 {
+  color: #ffe600 !important;
+}
+
+#acerca-de .valor-item p {
+  color: #ffffff !important;
+}
+
+/* Eliminar margen superior en caso de que esté causando espacio blanco */
+#acerca-de .container {
+  margin-top: 0;
+}

@@ -1,0 +1,432 @@
+<!-- filepath: c:\xampp\htdocs\Programacion-de-formulario-con-BD\index.php -->
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <!-- Tus enlaces actuales -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YUCATECNO - Taller de Telefonía y Reparación</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- Biblioteca AOS para animaciones al hacer scroll -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!-- Tus estilos CSS -->
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/footer.css">
+</head>
+
+<body class="bg-light text-dark">
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="img/logo.png" alt="Yucatecno Logo" height="50">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link active" href="#">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#servicios">Servicios</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#galeria-reparaciones">Galeria</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#paqueteria">Paqueteria</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#acerca-de">Acerca de</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section con animaciones mejoradas -->
+    <section class="hero">
+        <div class="hero-overlay"></div>
+        <div class="container text-center hero-content">
+            <h1 class="hero-title">Reparamos tu dispositivo, conectamos tu mundo</h1>
+            <p class="hero-text">
+                Somos expertos en reparación de teléfonos móviles y dispositivos electrónicos. Ofrecemos soluciones
+                rápidas y efectivas para que siempre estés conectado con lo que más importa.
+            </p>
+            <a href="https://wa.me/529993848314" class="btn btn-warning btn-lg hero-button" target="_blank">
+                <i class="fab fa-whatsapp me-2"></i>Contactanos
+            </a>
+        </div>
+    </section>
+    <!-- Sección de Servicios -->
+    <section id="servicios" class="py-5">
+        <div class="container">
+            <div class="row mb-5">
+                <div class="col-12 text-center">
+                    <h2 class="section-title mb-3">Nuestros Servicios</h2>
+                    <p class="lead">Ofrecemos servicios especializados en reparación y mantenimiento de dispositivos
+                        móviles, adaptados a tus necesidades</p>
+                </div>
+            </div>
+
+            <div class="row g-4">
+                <!-- Servicio 1 -->
+                <div class="col-md-6 col-lg-4 mb-4">
+                    <div class="service-card h-100 shadow-sm">
+                        <div class="service-img-container">
+                            <img src="https://scontent.fmid1-4.fna.fbcdn.net/v/t39.30808-6/482020284_1136199341633611_3191795074148770613_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=833d8c&_nc_ohc=UDURk1OCt2kQ7kNvwGZdfsC&_nc_oc=AdkKhJqzL8xQexilMxWsYe-YKZ_sasZ6cC5xVX1GKIOQNFcRxK7m2K4G3ntxbgOKWuw&_nc_zt=23&_nc_ht=scontent.fmid1-4.fna&_nc_gid=8tA9sjTeRpoAf7zAz_3KDg&oh=00_AfFsdD8uGTNmn_1CkwOd-W2zo2b91g-LeZGPX6sVm_SRhw&oe=680C71F5"
+                                class="card-img-top" alt="Cambio de Pantalla">
+                        </div>
+                        <div class="card-body text-center">
+                            <div class="service-icon mb-3">
+                                <i class="fas fa-mobile-alt fa-3x text-warning"></i>
+                            </div>
+                            <h4 class="card-title">Cambio de Pantalla</h4>
+                            <p class="card-text">Reemplazamos pantallas dañadas o rotas de cualquier modelo de teléfono
+                                con repuestos originales y garantía.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Servicio 2 -->
+                <div class="col-md-6 col-lg-4 mb-4">
+                    <div class="service-card h-100 shadow-sm">
+                        <div class="service-img-container">
+                            <img src="https://tse1.mm.bing.net/th/id/OIP.i92lKKw74HtNg2U9bKmX0AHaER?rs=1&pid=ImgDetMain"
+                                class="card-img-top" alt="Cambio de Baterías">
+                        </div>
+                        <div class="card-body text-center">
+                            <div class="service-icon mb-3">
+                                <i class="fas fa-battery-full fa-3x text-warning"></i>
+                            </div>
+                            <h4 class="card-title">Cambio de Baterías</h4>
+                            <p class="card-text">Sustituimos baterías desgastadas para que tu dispositivo recupere su
+                                autonomía original.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Servicio 3 -->
+                <div class="col-md-6 col-lg-4 mb-4">
+                    <div class="service-card h-100 shadow-sm">
+                        <div class="service-img-container">
+                            <img src="https://tse4.mm.bing.net/th/id/OIP.iH7B1IRNVRlhTJeaLlRSgQHaHa?rs=1&pid=ImgDetMain"
+                                class="card-img-top" alt="Reparación de Botones">
+                        </div>
+                        <div class="card-body text-center">
+                            <div class="service-icon mb-3">
+                                <i class="fas fa-tools fa-3x text-warning"></i>
+                            </div>
+                            <h4 class="card-title">Reparación de Botones</h4>
+                            <p class="card-text">Reparamos botones de encendido, volumen y otros componentes dañados de
+                                tu dispositivo.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Servicio 4 -->
+                <div class="col-md-6 col-lg-4 mb-4">
+                    <div class="service-card h-100 shadow-sm">
+                        <div class="service-img-container">
+                            <img src="https://scontent.fmid1-4.fna.fbcdn.net/v/t39.30808-6/485011390_1147409380512607_1151607604909112412_n.jpg?stp=cp6_dst-jpg_tt6&_nc_cat=111&ccb=1-7&_nc_sid=833d8c&_nc_ohc=oxN38ytuRVMQ7kNvwHtYs2A&_nc_oc=Adk-3SEYKOWPNU-ILJpJq-hqLhld5x-8pxC1-1I1Ci5fvYxYemRST8sMFxIedzoMcNU&_nc_zt=23&_nc_ht=scontent.fmid1-4.fna&_nc_gid=zZ7S4gNHBzEZ_59uoJLkzA&oh=00_AfEOd8oJvJOAb90nHxQZOcuXGVt2uk-97AF_yCntLR9J8w&oe=680C935D"
+                                class="card-img-top" alt="Reparación de Centros de Carga">
+                        </div>
+                        <div class="card-body text-center">
+                            <div class="service-icon mb-3">
+                                <i class="fas fa-plug fa-3x text-warning"></i>
+                            </div>
+                            <h4 class="card-title">Reparación de Centros de Carga</h4>
+                            <p class="card-text">Solucionamos problemas de carga en tu dispositivo, reemplazando o
+                                reparando el puerto de carga.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Servicio 5 -->
+                <div class="col-md-6 col-lg-4 mb-4">
+                    <div class="service-card h-100 shadow-sm">
+                        <div class="service-img-container">
+                            <img src="https://media.pasionmovil.com/2018/04/iphone-liberar.jpg" class="card-img-top"
+                                alt="Actualización de Software">
+                        </div>
+                        <div class="card-body text-center">
+                            <div class="service-icon mb-3">
+                                <i class="fas fa-sync-alt fa-3x text-warning"></i>
+                            </div>
+                            <h4 class="card-title">Liberaciones</h4>
+                            <p class="card-text">Realizamos liberaciones de dispositivos móviles para que puedas
+                                utilizarlos con cualquier compañía telefónica, garantizando un proceso seguro y
+                                confiable.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Servicio 6 -->
+                <div class="col-md-6 col-lg-4 mb-4">
+                    <div class="service-card h-100 shadow-sm">
+                        <div class="service-img-container">
+                            <img src="https://www.connect.de/bilder/118654611/landscapex1200-c2/fotolia_142240986_smartphone_sicherheit.jpg"
+                                class="card-img-top" alt="Diagnóstico y Reparación General">
+                        </div>
+                        <div class="card-body text-center">
+                            <div class="service-icon mb-3">
+                                <i class="fas fa-unlock-alt fa-3x text-warning"></i>
+                            </div>
+                            <h4 class="card-title">Desbloqueo de Cuentas</h4>
+                            <p class="card-text">Realizamos desbloqueo de cuentas Google, cuentas de pago como Macropay
+                                y PayJoy, garantizando un proceso seguro y confiable.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <!-- Sección de Galería de Reparaciones -->
+    <section id="galeria-reparaciones" class="py-5 bg-light">
+        <div class="container">
+            <div class="row mb-5">
+                <div class="col-12 text-center">
+                    <h2 class="section-title mb-3">Galería de Reparaciones</h2>
+                    <p class="lead">Explora algunas de nuestras reparaciones más destacadas</p>
+                </div>
+            </div>
+
+            <div id="carouselReparaciones" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="https://scontent.fmid1-2.fna.fbcdn.net/v/t39.30808-6/487875771_588354864248793_4274327832543114326_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=833d8c&_nc_ohc=C4VM9lEYlGwQ7kNvwHXkcq5&_nc_oc=AdlbXEjalQYyU0X80a91O8XKxDo8_fKHb9ZKC9f1zr-1NMpOZjuMRu_AJxXHZlbZt0s&_nc_zt=23&_nc_ht=scontent.fmid1-2.fna&_nc_gid=-CFAsbidGkg3uUsSZwDv1g&oh=00_AfFY26fTyHUlUIwsnzuQZ-XjsM7U5uGLNetKl0FZZP1O_A&oe=681042BD"
+                            class="d-block w-100" alt="Reparación 1">
+                        <div class="carousel-caption d-none d-md-block">
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://scontent.fmid1-3.fna.fbcdn.net/v/t39.30808-6/487518233_586629877754625_785704066170049848_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=833d8c&_nc_ohc=gq2SQR0SYJoQ7kNvwEj9MwM&_nc_oc=AdlPEFG0eb8qj3C222CpONMB928ONmGVkc2nkV9Gu-a04Yew2CeGj9GMpTiM_6EdOYQ&_nc_zt=23&_nc_ht=scontent.fmid1-3.fna&_nc_gid=asdxJ0l_k2NobmtDjUVWtQ&oh=00_AfHStUyz8-834Wgphkx2CvsoT0vDqvAz9KBhWyokjR5gKQ&oe=68104531"
+                            class="d-block w-100" alt="Reparación 2">
+                        <div class="carousel-caption d-none d-md-block">
+
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://scontent.fmid1-4.fna.fbcdn.net/v/t39.30808-6/487973849_586614127756200_7854070945849296126_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=833d8c&_nc_ohc=w-pPE8vmYIAQ7kNvwH9O9n2&_nc_oc=Admn4jsewla1HFgj2Ravqtgu9SV1rmhbJzkkos-nMEdWyIIVculVakwOJkJKv0B7hEo&_nc_zt=23&_nc_ht=scontent.fmid1-4.fna&_nc_gid=qJSPAmPj93JqpaizQFcL1A&oh=00_AfH5DkI0HUh7fPTr3vu-Q3u8hqvf-QFBoGnLulW7yF4s0w&oe=6810493A"
+                            class="d-block w-100" alt="Reparación 3">
+                        <div class="carousel-caption d-none d-md-block">
+
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselReparaciones"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Anterior</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselReparaciones"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Siguiente</span>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <div class="row mt-5">
+        <div class="col-12 text-center">
+            <p class="mb-4 fs-5">¿Tu celular necesita atención especializada? ¡Estamos aquí para ayudarte!
+                Contáctanos y descubre cómo podemos devolverle la vida a tu dispositivo.
+            </p>
+            <a href="https://wa.me/529993848314?text=Me%20puede%20brindar%20más%20información%20sobre%20sus%20servicios"
+                class="btn btn-warning btn-lg" target="_blank">
+                <i class="fab fa-whatsapp me-2"></i>Habla con un experto
+            </a>
+        </div>
+    </div>
+    <br>
+    <br>
+    <div class="containerservice">
+        <!-- Sección de Paquetería Mercado Libre -->
+        <section id="paqueteria" class="py-5">
+            <div class="container">
+                <div class="row mb-5">
+                    <div class="col-12 text-center">
+                        <h2 class="section-title mb-3">Paquetería Mercado Libre - Punto Pick Up</h2>
+                        <p class="lead">Somos punto oficial para recepción y entrega de paquetes de Mercado Libre</p>
+                    </div>
+                </div>
+                <div class="row align-items-center">
+                    <div class="col-md-5 text-center mb-4 mb-md-0">
+                        <img src="https://http2.mlstatic.com/frontend-assets/ui-navigation/5.18.9/mercadolibre/logo__large_plus.png"
+                            alt="Paquetería Mercado Libre" class="img-fluid rounded">
+                    </div>
+                    <div class="col-md-7">
+                        <ul class="paqueteria-list">
+                            <li>
+                                <i class="fas fa-box"></i>
+                                <strong>Recepción de paquetes</strong>
+                                Recibe tus compras de Mercado Libre en nuestro local
+                            </li>
+                            <li>
+                                <i class="fas fa-hand-holding-box"></i>
+                                <strong>Entrega Pick Up</strong>
+                                Retira tus paquetes de forma fácil y segura
+                            </li>
+                            <li>
+                                <i class="fas fa-truck"></i>
+                                <strong>Colecta para vendedores</strong>
+                                Trae tus ventas y nosotros nos encargamos del envío
+                            </li>
+                            <li>
+                                <i class="fas fa-clock"></i>
+                                <strong>Horario extendido</strong>
+                                Amplia disponibilidad para recoger tus compras
+                            </li>
+                        </ul>
+                        <div class="text-center text-md-start mt-5">
+                            <a href="https://wa.me/529993848314?text=Hola,%20quisiera%20información%20sobre%20el%20servicio%20de%20paquetería"
+                                class="btn btn-warning btn-lg" target="_blank">
+                                <i class="fab fa-whatsapp me-2"></i>Consultar por WhatsApp
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <div class="container">
+        <div id="acerca-de" class="py-5">
+            <div class="row">
+                <!-- Información de la empresa -->
+                <div class="col-lg-6 mb-4">
+                    <h1 class="section-title mb-4">Acerca de YUCATECNO</h1>
+                    <p class="lead">Somos especialistas en reparación de celulares y tablets en Mérida, Yucatán, con un
+                        enfoque en calidad, rapidez y confianza.</p>
+
+                    <h4 class="mt-4 quienes-somos-heading" style="color: black !important">¿Quiénes somos?</h4>
+                    <p>En <strong>YUCATECNO</strong> nos dedicamos a reparar y mantener en óptimas condiciones tus
+                        dispositivos móviles. Con sede en Mérida, Yucatán, hemos construido una reputación sólida
+                        gracias a nuestra atención personalizada, rapidez y resultados garantizados.</p>
+
+                    <h4 class="mt-4">Nuestros Servicios</h4>
+                    <ul>
+                        <li>Reparación inmediata de teléfonos y tablets</li>
+                        <li>Venta de accesorios para móviles</li>
+                        <li>Cotizaciones personalizadas y sin compromiso</li>
+                    </ul>
+
+                    <h4 class="mt-4">Misión</h4>
+                    <p>Brindar servicios de reparación de dispositivos móviles con eficiencia y profesionalismo,
+                        asegurando la satisfacción total de nuestros clientes en Mérida y sus alrededores.</p>
+
+                    <h4 class="mt-4">Visión</h4>
+                    <p>Ser reconocidos como el centro de servicio técnico líder en Mérida, destacando por nuestra
+                        atención al cliente, rapidez en las reparaciones y calidad en cada servicio ofrecido.</p>
+                </div>
+
+                <!-- Video y valores -->
+                <div class="col-lg-6">
+                    <div class="about-video-container mb-4">
+                        <div class="about-video-container mb-4">
+                            <div id="fb-root"></div>
+                            <script async defer crossorigin="anonymous"
+                                src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v18.0"></script>
+
+                            <div class="fb-video" data-href="https://www.facebook.com/Yucatecno/videos/3967789323494548"
+                                data-show-text="false">
+                            </div>
+
+                        </div>
+
+                    </div>
+                    <div class="valores-container p-4">
+                        <h4 class="text-center mb-3">Nuestros Valores</h4>
+                        <div class="row">
+                            <div class="col-6 mb-3">
+                                <div class="valor-item">
+                                    <h5><i class="fas fa-check-circle me-2"></i> Compromiso</h5>
+                                    <p>Nos dedicamos a resolver los problemas de nuestros clientes con responsabilidad y
+                                        dedicación.</p>
+                                </div>
+                            </div>
+                            <div class="col-6 mb-3">
+                                <div class="valor-item">
+                                    <h5><i class="fas fa-handshake me-2"></i> Transparencia</h5>
+                                    <p>Mantenemos una comunicación clara y honesta en cada etapa del servicio.</p>
+                                </div>
+                            </div>
+                            <div class="col-6 mb-3">
+                                <div class="valor-item">
+                                    <h5><i class="fas fa-certificate me-2"></i> Calidad</h5>
+                                    <p>Utilizamos repuestos de alta calidad y técnicas actualizadas para garantizar
+                                        reparaciones duraderas.</p>
+                                </div>
+                            </div>
+                            <div class="col-6 mb-3">
+                                <div class="valor-item">
+                                    <h5><i class="fas fa-lightbulb me-2"></i> Innovación</h5>
+                                    <p>Nos mantenemos al día con las últimas tecnologías para ofrecer soluciones
+                                        efectivas.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+    <footer class="footer">
+        <div class="footer__container">
+            <!-- Sobre Nosotros -->
+            <div class="footer__section">
+                <h4>Sobre Nosotros</h4>
+                <p>Somos una empresa dedicada a ofrecer soluciones tecnológicas de alta calidad, enfocándonos en la
+                    satisfacción de nuestros clientes.</p>
+            </div>
+            <!-- Contacto -->
+            <div class="footer__section">
+                <h4>Contactanos</h4>
+                <p>
+                    ☎️ <a href="tel:+529993848314" style="color:inherit;text-decoration:underline;">+52
+                        999-384-8314</a><br>
+                    📧 <a href="mailto:yucatecnoyucatan@gmail.com"
+                        style="color:inherit;text-decoration:underline;">yucatecnoyucatan@gmail.com</a><br>
+                </p>
+            </div>
+            <!-- Síguenos -->
+            <div class="footer__section">
+                <h4>Síguenos</h4>
+                <div class="footer__social">
+                    <a href="https://www.facebook.com/YUCATECNO" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+                    <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a href="https://linkedin.com" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+            <!-- Mapa -->
+            <div class="footer__section footer__map">
+                <h4>Encuéntranos</h4>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3725.831989604585!2d-89.67790012492115!3d20.95926118067276!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f56733937bb5539%3A0xcf9a1ec4a4ab9b8e!2sYUCATECNO!5e0!3m2!1ses!2smx!4v1745514133393!5m2!1ses!2smx"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+
+        <div class="footer__bottom">
+            <p>&copy; 2025 Desarrollado por el Ing.Jafet Daniel Gamboa Baas. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- GSAP para animaciones avanzadas -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+
+    <!-- AOS para animaciones al hacer scroll -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <!-- JavaScript para animaciones -->
+    <script src="js/animations.js"></script>
+
+    <body>
+
+</html>
