@@ -144,6 +144,30 @@ Sitio web oficial para YUCATECNO, taller especializado en reparación de disposi
 - Email: yucatecnoyucatan@gmail.com
 - Ubicación: Mérida, Yucatán (integrado con Google Maps)
 
+## Despliegue y Acceso Público
+
+- **Plataforma de hosting:** Netlify
+- **URL del sitio web:** [https://yucatecno.netlify.app/](https://yucatecno.netlify.app/)
+- **Estado actual:** Sitio activo y funcional
+- **Última actualización:** 2025
+
+### Ventajas del despliegue en Netlify
+
+- Certificado SSL gratuito (HTTPS)
+- Despliegue continuo desde repositorio
+- Alta disponibilidad y rápido tiempo de carga
+- CDN global para mejor rendimiento
+
+### Acceso por Secciones
+
+El sitio permite acceso directo a secciones específicas mediante fragmentos de URL:
+
+- Inicio: [https://yucatecno.netlify.app/](https://yucatecno.netlify.app/)
+- Servicios: [https://yucatecno.netlify.app/#servicios](https://yucatecno.netlify.app/#servicios)
+- Galería: [https://yucatecno.netlify.app/#galeria-reparaciones](https://yucatecno.netlify.app/#galeria-reparaciones)
+- Paquetería: [https://yucatecno.netlify.app/#paqueteria](https://yucatecno.netlify.app/#paqueteria)
+- Acerca de: [https://yucatecno.netlify.app/#acerca-de](https://yucatecno.netlify.app/#acerca-de)
+
 ## Autor
 
 Desarrollado por el Ing. Jafet Daniel Gamboa Baas
