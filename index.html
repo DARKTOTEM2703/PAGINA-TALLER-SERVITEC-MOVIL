@@ -17,7 +17,6 @@
 
     <!-- Tus estilos CSS -->
     <link rel="stylesheet" href="css/index.css">
-    <link rel="stylesheet" href="css/footer.css">
 </head>
 
 <body class="bg-light text-dark">
@@ -52,7 +51,8 @@
                 Somos expertos en reparación de teléfonos móviles y dispositivos electrónicos. Ofrecemos soluciones
                 rápidas y efectivas para que siempre estés conectado con lo que más importa.
             </p>
-            <a href="https://wa.me/529993848314" class="btn btn-warning btn-lg hero-button" target="_blank">
+            <a href="https://wa.me/529993848314" class="btn btn-warning btn-lg hero-button" target="_blank"
+                rel="noopener">
                 <i class="fab fa-whatsapp me-2"></i>Contactanos
             </a>
         </div>
@@ -233,7 +233,7 @@
                 Contáctanos y descubre cómo podemos devolverle la vida a tu dispositivo.
             </p>
             <a href="https://wa.me/529993848314?text=Me%20puede%20brindar%20más%20información%20sobre%20sus%20servicios"
-                class="btn btn-warning btn-lg" target="_blank">
+                class="btn btn-warning btn-lg" target="_blank" rel="noopener">
                 <i class="fab fa-whatsapp me-2"></i>Habla con un experto
             </a>
         </div>
@@ -280,7 +280,7 @@
                         </ul>
                         <div class="text-center text-md-start mt-5">
                             <a href="https://wa.me/529993848314?text=Hola,%20quisiera%20información%20sobre%20el%20servicio%20de%20paquetería"
-                                class="btn btn-warning btn-lg" target="_blank">
+                                class="btn btn-warning btn-lg" target="_blank" rel="noopener">
                                 <i class="fab fa-whatsapp me-2"></i>Consultar por WhatsApp
                             </a>
                         </div>
@@ -299,7 +299,7 @@
                     <p class="lead">Somos especialistas en reparación de celulares y tablets en Mérida, Yucatán, con un
                         enfoque en calidad, rapidez y confianza.</p>
 
-                    <h4 class="mt-4 quienes-somos-heading" style="color: black !important">¿Quiénes somos?</h4>
+                    <h4 class="mt-4">¿Quiénes somos?</h4>
                     <p>En <strong>YUCATECNO</strong> nos dedicamos a reparar y mantener en óptimas condiciones tus
                         dispositivos móviles. Con sede en Mérida, Yucatán, hemos construido una reputación sólida
                         gracias a nuestra atención personalizada, rapidez y resultados garantizados.</p>
@@ -322,18 +322,9 @@
 
                 <!-- Video y valores -->
                 <div class="col-lg-6">
-                    <div class="about-video-container mb-4">
-                        <div class="about-video-container mb-4">
-                            <div id="fb-root"></div>
-                            <script async defer crossorigin="anonymous"
-                                src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v18.0"></script>
-
-                            <div class="fb-video" data-href="https://www.facebook.com/Yucatecno/videos/3967789323494548"
-                                data-show-text="false">
-                            </div>
-
-                        </div>
-
+                    <div class="about-video-container">
+                        <div class="fb-video" data-href="https://www.facebook.com/Yucatecno/videos/3967789323494548"
+                            data-show-text="false"></div>
                     </div>
                     <div class="valores-container p-4">
                         <h4 class="text-center mb-3">Nuestros Valores</h4>
@@ -384,20 +375,23 @@
             <div class="footer__section">
                 <h4>Contactanos</h4>
                 <p>
-                    ☎️ <a href="tel:+529993848314" style="color:inherit;text-decoration:underline;">+52
+                    ☎️ <a href="tel:+529993848314" class="contact-link">+52
                         999-384-8314</a><br>
-                    📧 <a href="mailto:yucatecnoyucatan@gmail.com"
-                        style="color:inherit;text-decoration:underline;">yucatecnoyucatan@gmail.com</a><br>
+                    📧 <a href="mailto:yucatecnoyucatan@gmail.com" class="email-link">yucatecnoyucatan@gmail.com</a><br>
                 </p>
             </div>
             <!-- Síguenos -->
             <div class="footer__section">
                 <h4>Síguenos</h4>
                 <div class="footer__social">
-                    <a href="https://www.facebook.com/YUCATECNO" target="_blank"><i class="fab fa-facebook-f"></i></a>
-                    <a href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
-                    <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
-                    <a href="https://linkedin.com" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="https://www.facebook.com/YUCATECNO" target="_blank" rel="noopener"
+                        title="Visit us on Facebook"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://twitter.com" target="_blank" rel="noopener" title="Follow us on Twitter"><i
+                            class="fab fa-twitter"></i></a>
+                    <a href="https://instagram.com" target="_blank" rel="noopener" title="Check us out on Instagram"><i
+                            class="fab fa-instagram"></i></a>
+                    <a href="https://linkedin.com" target="_blank" rel="noopener" title="Connect with us on LinkedIn"><i
+                            class="fab fa-linkedin-in"></i></a>
                 </div>
             </div>
             <!-- Mapa -->
@@ -405,8 +399,7 @@
                 <h4>Encuéntranos</h4>
                 <iframe
                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3725.831989604585!2d-89.67790012492115!3d20.95926118067276!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f56733937bb5539%3A0xcf9a1ec4a4ab9b8e!2sYUCATECNO!5e0!3m2!1ses!2smx!4v1745514133393!5m2!1ses!2smx"
-                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    class="map-iframe" allowfullscreen="" title="Ubicación de YUCATECNO"></iframe>
             </div>
         </div>
 
