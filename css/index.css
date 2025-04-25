@@ -1413,3 +1413,6 @@ body {
 .containerservice {
   background-color: #000000;
 }
+.black-perma {
+  color: #000 !important;
+}
