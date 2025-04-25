@@ -88,7 +88,8 @@ nav ul li a:hover {
 
 .hero {
   position: relative;
-  background: url("../img/baner_1.jpg") no-repeat center center;
+  background: url("https://scontent.fisj3-3.fna.fbcdn.net/v/t39.30808-6/410713994_10225583756766875_1119676006294650797_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=833d8c&_nc_ohc=Ogj0UUjjR8AQ7kNvwE6NriZ&_nc_oc=AdlwkSdJyiwO1SQTYiw16v9ixHwBnC_s76mzSDCTvc6tgdVZB-imhdnu1BBLSKCXJepMLfr9f9-voSo0nWU1p-_h&_nc_zt=23&_nc_ht=scontent.fisj3-3.fna&_nc_gid=piq58ZvBNcj4fVjhBiliUA&oh=00_AfGdkozcWaiFhbkDSTXaHnDiePw8H5trTQ3yh79BHfJmvA&oe=6810D995")
+    no-repeat center center;
   background-size: cover;
   height: 100vh;
   display: flex;
