@@ -1310,7 +1310,7 @@ body {
   margin-bottom: 25px;
   padding-left: 60px;
   position: relative;
-  color: #ffffff;
+  color: #ffffff !important;
 }
 
 .paqueteria-list li i {
@@ -1359,6 +1359,37 @@ body {
 .containerservice {
   background-color: #000000;
 }
+
+.paqueteria-info {
+  background-color: rgba(0, 0, 0, 0.4);
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+  border-left: 4px solid #ffe600;
+}
+
+.paqueteria-info h3 {
+  color: #ffe600 !important;
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 15px;
+  text-shadow: 0 2px 6px rgba(0, 0, 0, 0.5);
+}
+
+#paqueteria .paqueteria-info h3.text-ffe600,
+h3.text-ffe600,
+.paqueteria-info h3 {
+  color: #ffe600 !important; /* Color amarillo corporativo */
+  font-weight: 700;
+}
+
+.paqueteria-info h3.mb-4 {
+  color: #ffe600 !important;
+  font-size: 2rem;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+}
+
 .black-perma {
   color: #000 !important;
   font-size: 1.2rem !important; /* Tamaño más pequeño para los títulos */
@@ -1795,20 +1826,30 @@ div {
   filter: brightness(0);
 }
 
-/* Indicadores */
+/* Indicadores - versión corregida y centrada */
 #carouselAgencias .carousel-indicators {
   position: absolute;
   bottom: 0;
-  margin-bottom: 5px;
+  left: 0;
+  right: 0;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
+  padding-left: 0;
+  margin-left: 0;
+  margin-right: 0;
+  list-style: none;
 }
 
 #carouselAgencias .carousel-indicators button {
-  width: 10px;
-  height: 10px;
+  width: 12px;
+  height: 12px;
   border-radius: 50%;
   background-color: rgba(255, 255, 255, 0.5);
-  margin: 0 3px;
+  margin: 0 5px;
   opacity: 0.7;
+  border: none;
+  cursor: pointer;
 }
 
 #carouselAgencias .carousel-indicators button.active {
